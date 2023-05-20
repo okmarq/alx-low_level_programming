@@ -1,2 +1,5 @@
 #!/bin/bash
-gcc $CFILE -E -o c
+
+cfile=$CFILE
+
+gcc -E "$cfile" -o c
